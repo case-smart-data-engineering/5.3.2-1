@@ -32,8 +32,6 @@ scipy==1.7.3
 setuptools==65.5.1
 six==1.16.0
 tensorboard==1.15.0
-tensorflow==1.15.4
-tensorflow-estimator==1.15.1
 termcolor==2.1.1
 torch==1.13.0
 torchvision==0.14.0
