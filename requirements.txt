@@ -8,3 +8,5 @@ json
 matplotlib
 pillow
 wegt
+typing
+math
