@@ -1,1 +1,9 @@
 pytest
+numpy
+torch
+torchvision
+os
+time
+json
+matplotlib
+pillow
