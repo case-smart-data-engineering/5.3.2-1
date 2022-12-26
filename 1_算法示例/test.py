@@ -33,7 +33,8 @@ def main():
     #下载模型
     url = 'https://download.pytorch.org/models/maskrcnn_resnet50_fpn_coco-bf2d0c1e.pth'
     path = './model/maskrcnn.pth'
-    wget.download(url,path)
+    if(!(os.path.exists(path))):
+        wget.download(url,path)  
     #加载模型路径
     weights_path = "./model/maskrcnn.pth"
     #测试图片路径
